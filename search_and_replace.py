@@ -27,3 +27,4 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     search_and_replace(args.directory, args.search_text, args.replace_text, exclude=args.exclude)
+
